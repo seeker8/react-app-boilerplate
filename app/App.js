@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
 import HelloWorld from './helloworld';
+import GroceryList from './grocerylist';
 
 class App extends Component {
-  render(){
+  render() {
     return (
-      <HelloWorld place="Zacatecas"/>
+      <GroceryList />
     );
   }
 }
